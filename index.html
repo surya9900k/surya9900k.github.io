@@ -2,12 +2,11 @@
 <html>
 <head>
 	<style>
-        body {height: 100%; margin: 0%; text-align: center; width: 100%;}
-        h1 {
-    color:darkred; font-size: 35px; font-family: sans-serif;}
+        body {height: 100%; margin: 0%; width: 100%;}
         h2 {
             font-size: 50px; }
         p {
+            text-align: center;
     font-size: 2rem;
     font-family: Verdana;
     
@@ -24,37 +23,65 @@ text-align: center;
 }
 
 #footer {
+    text-align: center;
     font-size: 0.76rem;
     font-family: Verdana;
     
 }
 
 .hero a {
+    text-align: center;
     color:darkmagenta;
     font-size: 1.25em;
     text-decoration: none;
 
 }
+        
+        .contributor {
+            margin-bottom: 12px;
+            margin-top: 20px;
+            font-size: 36px;
+            text-decoration:inherit;
+            text-align: left;
+            font-family: cursive;
+            
+        }    
+        
+        #cont. {
+            font-family: cursive;
+            font-size: 22px;
+            
+        }
+        
+        #frame {
+            text-align: right;
+        }
+        .header {
+            
+            color:darkred; 
+            font-size: 35px; font-family: sans-serif;
+            text-align: center;
+        }        
     </style>
     <title>Suraj</title>
 	<link rel="stylesheet" type="text/css" href="Main.css"/>
 </head>
     <body>
     
-	<h1>Indian Publishers Ltd.</h1>
+	<h1 class="header">Indian Publishers Ltd.</h1>
 	<div class="hero">
 		<h2> Warrior.</h2>
 		<p>A book by suraj singh.</p>
-		<a href="#">Read now.</a>
-		<ul>
-			<li>Previous contribution</li>
-			<ol>
-				<li>The eye of a tiger</li>
-				<li>Roar</li>
-				
-			</ol>
-		</ul>
+        <a href="https://www.google.com">Read now.</a>
 	</div>
+        <ul class="Contributor">
+        <li>Previous Contribution</li>
+            <ol id="cont.">
+            <li>Jack the sparrow</li>
+                <li>Jimmy and jone's</li>
+            </ol>
+        </ul>
+		<iframe src="#" height="300px" width="350px" align="right" >Video</iframe>
 	<p id="footer">&copy; Indian Publishers Limited</p>
 </body>
 </html>
